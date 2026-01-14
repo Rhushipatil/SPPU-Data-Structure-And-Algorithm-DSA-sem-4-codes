@@ -10,7 +10,7 @@ class node_cls
 public:
     char data;
     node_cls *left, *right;
-
+#
     node_cls()
     {
         left = right = NULL;
